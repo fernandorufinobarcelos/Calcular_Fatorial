@@ -1,6 +1,6 @@
 public class testeFatorial {
-    public static void testarFatorial(int entrada, int esperado) {
-        int resultado = Fatorial.calcularFatorial(entrada);
+    public static void testarFatorial(int entrada, long esperado) {
+        long resultado = calcularFatorial.calculoFatorial(entrada);
         if (resultado == esperado) {
             System.out.println("Teste passou para fatorial(" + entrada + ")");
         } else {
